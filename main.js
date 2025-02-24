@@ -10,7 +10,6 @@ console.log(`⏩ Magma Staking`.red);
 console.log(`⏩ Izumi Swap`.red);
 console.log(`⏩ Kitsu Staking`.red);
 console.log(`⏩ aPriori Staking`.red);
-console.log(`⏩ Auto Send`.red);
 console.log("");
 
 const scripts = [
@@ -20,7 +19,6 @@ const scripts = [
   { name: "Izumi Swap", path: "./modul/izumi.js" },
   { name: "Kitsu Staking", path: "./modul/kitsu.js" },
   { name: "aPriori Staking", path: "./modul/apriori.js" },
-  { name: "Auto Send", path: "./modul/send.js" },
 ];
 
 const { spawn } = require("child_process");
